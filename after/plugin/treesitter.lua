@@ -1,4 +1,4 @@
-require'nvim-treesitter.configs'.setup {
+require'nvim-treesitter.config'.setup {
 	ensure_installed = { "vim", "vimdoc", "query" },
 	sync_install = false,
 	auto_install = true,
